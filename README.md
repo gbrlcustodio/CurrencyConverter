@@ -1,6 +1,6 @@
 ## Currency Converter
 
-This is a simple currency converter app.
+A simple, web based, app for currency conversion.
 
 
-![](img/currency_converter.png?raw=true)
+![alt text](img/currency_converter.png?raw=true)
