@@ -1,0 +1,38 @@
+{
+  "version": "0.1.0",
+  "name": "Currency Converter",
+  "description": "A online currency converter",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Gabriel Custódio",
+    "url": "https://github.com/gcmartins93"
+  },
+  "type": "privileged",
+    "permissions": {
+      "systemXHR" : {
+        "description" : "Required to access remote api"
+      }
+    },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "locales": {
+    "es": {
+      "name": "Conversor de Moneda",
+      "description": "Un conversor de modena online",
+      "permissions": {}
+    },
+    "pt-BR": {
+      "name": "Conversor de Moedas",
+      "description": "Um conversor de moedas online",
+      "permissions": {}
+    }
+  },
+  "default_locale": "en"
+}
